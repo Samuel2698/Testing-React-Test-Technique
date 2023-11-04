@@ -1,0 +1,30 @@
+main {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: 64px;
+}
+
+aside {
+  min-width: 500px;
+}
+
+form {
+  display: flex;
+}
+
+section {
+  margin-left: 64px;
+}
+
+ul {
+  padding: 0 0 0 10px;
+  margin: 0 0 0 10px;
+}
+
+li {
+  padding: 4px;
+}
+
+section button {
+  margin-top: 10px;
+}
