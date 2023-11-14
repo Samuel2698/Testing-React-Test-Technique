@@ -3,7 +3,7 @@ import { renderHook, act } from '@testing-library/react'
 import { useItems } from '../src/hooks/useItems'
 
 describe('useItems hook', () => {
-  test('shoud and remove items', () => {
+  test('should add and remove items', () => {
     const { result } = renderHook(() => useItems())
     // console.log(result.current)
 
